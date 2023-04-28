@@ -7,7 +7,8 @@ const color = ()=>{
     const randomColor = col[random];
     document.getElementById('cajaTexto').style.backgroundColor = randomColor;
 }
-document.getElementById('clic').onclick = function (){
+function clicA(){
+    document.getElementById('clic').onclick;
     alert('¡Haz hecho clic!');
 }
 function cambiarEstilo() {
